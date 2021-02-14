@@ -1,0 +1,22 @@
+{
+  "name": "practica-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "gulp styles",
+    "scripts": "tsc",
+    "start": "http-server ./dist",
+    "build": "gulp html && gulp styles"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "http-server": "^0.12.3",
+    "sass": "^1.32.6",
+    "typescript": "^4.1.3"
+  }
+}
